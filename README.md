@@ -1,15 +1,8 @@
-1 - Instalar o React em um novo projeto com o comando npx create-react-app usuariosapi
+1 - Baixar o projeto e rodar o comando npm install para instalar todas as dependencias necessárias
 
-2 - Instalar as bibliotecas necessarias como: axios, express, nodemon
+2 - Configurar a porta do backend, no caso a porta utilizada foi 8000 (localhost:8000)
 
-3 - Instalar o backend usando nodeJS com o comando: yarn init -y
+3 - Iniciar o servidor do backend com o comando npm run dev dentro da pasta server
 
-4 - Configurar a porta do backend, no caso a porta utilizada foi 8000 (localhost:8000)
+4 - Após o servidor backend estar rodando, rodar o comando npm start na pasta usuariosapi para iniciar o frontend (por padrao ja roda na porta 3000)
 
-6 - Fazer requisição dos dados da API do endereço: https://jsonplaceholder.typicode.com/users utilizando o axios
-
-6 - Tratar os dados da API, filtrando por ordem alfabetica e apenas 5 usuarios
-
-7 - Consumir os dados da API já configurado pelo backend no frontend utilizando useState e useEffect
-
-8 - Exibir os dados consumidos no frontend
